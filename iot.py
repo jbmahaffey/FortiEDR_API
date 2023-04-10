@@ -42,6 +42,7 @@ def main():
         fmgr = input(str('IP address or hostname of FortiManager: '))
         fmgruser = input(str('Enter Fortimanager Username: '))
         fmgrpass = input(str('Enter FortiManager Password: '))
+        addrgrp = input(str('Enter name of address group to add devices to: '))
         adom = input(str('Enter ADOM to add objects to: '))
 
         fmgrurl = 'https://%s/jsonrpc' % fmgr
@@ -96,11 +97,11 @@ def main():
 
 
         devgroup = {          
-            "method": "update",
+            "method": "add",
             "params": [
                 {
                     "data": {
-                        "name": "EDR_IoT",
+                        "name": "%s" % addrgrp,
                         "member": objgroup
                     },
                 "url": "/pm/config/adom/%s/obj/firewall/addrgrp" % adom
@@ -111,7 +112,50 @@ def main():
         }
 
         try:
-            requests.post(fmgrurl, data=json.dumps(devgroup), headers=headers, verify=False)
+            msg = requests.post(fmgrurl, data=json.dumps(devgroup), headers=headers, verify=False)
+            msgjson = msg.json()
+            if 'Object already exists' in msgjson['result'][0]['status']['message']:
+                getgrp = {
+                    "method": "get",
+                    "params": [
+                        {
+                            "filter": [
+                                [
+                                    "name",
+                                    "==",
+                                    "%s" % addrgrp
+                                ]
+                            ],
+                        "url": "/pm/config/adom/%s/obj/firewall/addrgrp" % adom
+                        }
+                    ],
+                    "session": "%s" % sessionkey,
+                    "id": 3
+                }
+
+                objlist = requests.post(fmgrurl, data=json.dumps(getgrp), headers=headers, verify=False)
+                objlistjson = objlist.json()
+                for i in objlistjson['result'][0]['data'][0]['member']:
+                    objgroup.append(i)
+
+                devgroupupd = {          
+                    "method": "update",
+                    "params": [
+                        {
+                            "data": {
+                                "name": "%s" % addrgrp,
+                                "exclude": "enable",
+                                "member": objgroup
+                            },
+                        "url": "/pm/config/adom/%s/obj/firewall/addrgrp" % adom
+                        }
+                    ],
+                    "session": "%s" % sessionkey,
+                    "id": 4
+                }
+
+                requests.post(fmgrurl, data=json.dumps(devgroupupd), headers=headers, verify=False)
+            
         except:
             print('Unable to add addresses to object group.')
             exit()
