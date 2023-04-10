@@ -1,0 +1,61 @@
+id,deviceName,category,userCategory,type,model,internalIp,location,mac,isNew,isExpired,firstSeen,lastSeen,organization
+4348399,N/A,,,,,172.25.1.1,Australia,70-4C-A5-6A-DC-F7,False,True,2022-11-08 16:32,2022-11-08 16:32,US-CA-SE
+4088817,N/A,Other,Other,Unknown,"Microsoft, ",10.2.2.93,United States,98-5F-D3-31-CF-AF,False,True,2022-10-11 14:57,2022-10-11 14:57,US-CA-SE
+4088816,N/A,Network device,Network device,WAP,OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4),10.2.2.89,United States,D4-76-A0-DA-C3-C8,False,True,2022-10-11 14:57,2022-10-11 14:57,US-CA-SE
+4088806,IOS-Self-Signed-Certificate-553642880,Network device,Network device,Switch,"Cisco Systems, Cisco 2950, 2960, 3550, 3560, 3750, or 4500 switch or 6500 router (IOS 12.1 - 15.0); or Adaptive Security Appliance firewall",10.2.2.1,United States,9C-4E-20-FF-EB-C3,False,True,2022-10-11 14:57,2022-10-11 14:57,US-CA-SE
+4088808,fac_smith95,Other,Other,Linux,"Fortinet, Linux 4.0",10.2.2.20,United States,00-09-0F-09-00-12,False,True,2022-10-11 14:57,2022-10-11 14:57,US-CA-SE
+4088812,N/A,Other,Other,Unknown,"StarTech.com, ",10.2.2.72,United States,E8-EA-6A-5B-9E-7D,False,True,2022-10-11 14:57,2022-10-11 14:57,US-CA-SE
+4088814,N/A,Other,Other,Unknown,,10.2.2.78,United States,1C-FE-2B-42-BA-9C,False,True,2022-10-11 14:57,2022-10-11 14:57,US-CA-SE
+4088811,N/A,Other,Other,Unknown,,10.2.2.71,United States,90-9C-4A-D0-0B-B2,False,True,2022-10-11 14:53,2022-10-11 14:53,US-CA-SE
+4088813,N/A,Other,Other,Unknown,,10.2.2.73,United States,94-FF-3C-3C-31-1A,False,True,2022-10-11 14:53,2022-10-11 14:53,US-CA-SE
+4088815,N/A,Network device,Network device,WAP,OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4),10.2.2.80,United States,D4-76-A0-DA-CF-80,False,True,2022-10-11 14:53,2022-10-11 14:53,US-CA-SE
+4088818,N/A,Other,Other,Unknown,"Vizio, ",10.2.2.97,United States,3C-9B-D6-66-E8-A9,False,True,2022-10-11 14:53,2022-10-11 14:53,US-CA-SE
+4088821,N/A,Network device,Network device,WAP,OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4),10.2.2.112,United States,D4-76-A0-DA-CF-30,False,True,2022-10-11 14:53,2022-10-11 14:53,US-CA-SE
+4088820,N/A,Other,Other,Linux,"Arris Group, Linux 3.4 - 3.10",10.2.2.107,United States,B0-83-D6-BB-F3-AB,False,True,2022-10-11 14:53,2022-10-11 14:53,US-CA-SE
+4088822,N/A,Other,Other,Unknown,,10.2.2.115,United States,66-10-F0-70-D4-61,False,True,2022-10-11 14:53,2022-10-11 14:53,US-CA-SE
+4088819,N/A,,,,,10.2.2.98,United States,04-D5-90-AC-99-50,False,True,2022-10-11 14:48,2022-10-11 14:48,US-CA-SE
+1838798,N/A,Network device,Network device,WAP,"Fortinet, Tomato 1.27 - 1.28 (Linux 2.4.20)",192.168.11.1,United States,70-4C-A5-27-58-DE,False,True,2021-10-27 16:52,2021-10-28 10:14,US-CA-SE
+1649565,N/A,Other,Other,Unknown,,10.2.2.114,United States,,False,True,2021-09-18 11:18,2021-09-18 11:18,US-CA-SE
+1649556,N/A,Other,Other,Unknown,"Hon Hai Precision Ind., ",10.2.2.101,United States,A8-47-4A-C9-C7-27,False,True,2021-09-18 11:18,2022-10-11 14:57,US-CA-SE
+1649554,N/A,Network device,Network device,Specialized,"Roku, Roku Streaming Player Network Media 3920X 3920X",10.2.2.98,United States,10-59-32-69-70-FC,False,True,2021-09-18 11:18,2021-09-18 11:18,US-CA-SE
+1649552,N/A,Other,Other,Linux,"Arris Group, Linux 3.2 - 4.9",10.2.2.91,United States,2C-1D-B8-FF-EF-F3,False,True,2021-09-18 11:18,2021-09-18 11:18,US-CA-SE
+1649550,N/A,Network device,Network device,Specialized,"Roku, Roku Streaming Player Network Media 4800X 4800X",10.2.2.88,United States,BC-D7-D4-32-AD-A6,False,True,2021-09-18 11:18,2022-10-11 14:53,US-CA-SE
+1649548,support,Other,Other,Linux,"Meru Networks, Fortinet, Linux 3.2 - 4.9",10.2.2.86,United States,00-0C-E6-9A-3A-50,False,True,2021-09-18 11:18,2021-09-18 11:18,US-CA-SE
+1649546,N/A,Other,Other,Unknown,"Texas Instruments, ",10.2.2.75,United States,90-70-65-04-58-79,False,True,2021-09-18 11:18,2022-10-11 14:53,US-CA-SE
+1649544,N/A,Other,Other,Unknown,"Nintendo, ",10.2.2.103,United States,A4-38-CC-93-04-92,False,True,2021-09-18 11:18,2022-10-11 14:53,US-CA-SE
+1649543,support,Other,Other,Linux,"Meru Networks, Fortinet, Linux 3.2 - 4.9",10.2.2.73,United States,00-0C-E6-9A-43-50,False,True,2021-09-18 11:13,2021-09-18 11:13,US-CA-SE
+1649539,IOS-Self-Signed-Certificate-553642880,Network device,Network device,Switch,"Cisco Systems, Cisco 2950, 2960, 3550, 3560, 3750, or 4500 switch or 6500 router (IOS 12.1 - 15.0); or Adaptive Security Appliance firewall",10.2.2.1,United States,9C-4E-20-FF-EB-C4,False,True,2021-09-18 11:13,2021-09-18 11:13,US-CA-SE
+1649551,support,Network device,Network device,WAP,"Fortinet, Fortinet, OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4)",10.2.2.98,United States,04-D5-90-AC-99-50,False,True,2021-09-18 11:13,2022-10-11 14:57,US-CA-SE
+1649549,support,Other,Other,Linux,"Meru Networks, Fortinet, Linux 3.2 - 4.9",10.2.2.87,United States,00-0C-E6-9A-07-D0,False,True,2021-09-18 11:13,2021-09-18 11:13,US-CA-SE
+1649545,support,Other,Other,Linux,"Meru Networks, Fortinet, Linux 3.2 - 4.9",10.2.2.75,United States,00-0C-E6-9A-2F-90,False,True,2021-09-18 11:13,2021-09-18 11:13,US-CA-SE
+1649559,N/A,Printer,Printer,Printer,"Seiko Epson, ",10.2.2.105,United States,00-26-AB-61-08-53,False,True,2021-09-18 11:13,2022-10-11 14:53,US-CA-SE
+1649557,support,Other,Other,Linux,"Meru Networks, Fortinet, Linux 3.2 - 4.9",10.2.2.101,United States,00-0C-E6-90-91-22,False,True,2021-09-18 11:13,2021-09-18 11:13,US-CA-SE
+1649555,N/A,Network device,Network device,Specialized,"Roku, Roku Streaming Player Network Media 4200X 4200X",10.2.2.99,United States,B0-A7-37-75-0C-5D,False,True,2021-09-18 11:13,2022-10-11 14:53,US-CA-SE
+1649553,N/A,Other,Other,Linux,"Arris Group, Linux 3.2 - 4.9",10.2.2.95,United States,B0-83-D6-BB-F3-AB,False,True,2021-09-18 11:13,2022-10-11 14:53,US-CA-SE
+1649564,smith95-DC-CA,Network device,Network device,Router,"Fortinet, Linksys BEFSR41 EtherFast router",10.2.2.254,United States,00-09-0F-09-00-12,False,True,2021-09-18 11:13,2022-10-11 14:57,US-CA-SE
+1649562,cisco.com,Other,Other,Linux,"Cisco Systems, Cisco Systems Inc., Linux 2.6.9 - 2.6.30",10.2.2.194,United States,68-EF-BD-F6-56-8A,False,True,2021-09-18 11:13,2022-10-11 14:57,US-CA-SE
+1649563,cisco.com,Other,Other,Linux,"Cisco Systems, Cisco Systems Inc., Linux 2.6.9 - 2.6.30",10.2.2.195,United States,88-43-E1-38-94-AE,False,True,2021-09-18 11:13,2022-10-11 14:53,US-CA-SE
+1649560,N/A,Other,Other,Unknown,"Arris Group, ",10.2.2.108,United States,B0-83-D6-BB-F3-AA,False,True,2021-09-18 11:13,2021-09-18 11:13,US-CA-SE
+1649561,N/A,Other,Other,Unknown,,10.2.2.119,United States,52-45-92-20-1E-F1,False,True,2021-09-18 11:13,2021-09-18 11:13,US-CA-SE
+1649547,N/A,,,,,10.2.2.84,United States,DE-78-C8-73-4F-A8,False,True,2021-09-18 11:08,2021-09-18 11:08,US-CA-SE
+1638256,N/A,Other,Other,Linux,"Hewlett Packard, Linux 3.2 - 4.9",10.82.83.2,United States,78-E3-B5-1B-E1-48,False,True,2021-09-15 11:32,2021-09-15 11:32,US-CA-SE
+1638255,N/A,Other,Other,Unknown,"Fortinet, ",10.82.83.1,United States,E8-1C-BA-63-D3-05,False,True,2021-09-15 11:32,2021-09-15 11:32,US-CA-SE
+978727,N/A,Network device,Network device,Specialized,"Fortinet, ",192.168.10.99,United States,04-D5-90-5D-A7-40,False,True,2021-05-19 17:02,2021-05-19 17:02,US-CA-SE
+978728,N/A,Network device,Network device,Specialized,"EliteGroup Computer Systems, VMware ESXi 6.0.0",192.168.10.100,United States,94-C6-91-13-F0-A8,False,True,2021-05-19 17:02,2021-05-19 17:02,US-CA-SE
+487226,N/A,Network device,Network device,WAP,"Fortinet, Tomato 1.27 - 1.28 (Linux 2.4.20)",10.200.200.1,Canada,04-D5-90-17-23-65,False,True,2021-04-01 18:48,2021-04-01 18:48,US-CA-SE
+487227,N/A,Other,Other,Linux,Linux 3.2 - 4.9,10.200.200.2,Canada,3C-7C-3F-54-BD-30,False,True,2021-04-01 18:44,2021-04-01 18:44,US-CA-SE
+487229,N/A,Other,Other,Specialized,"Chongqing Fugui Electronics, iPXE 1.0.0+",10.200.200.101,Canada,B0-68-E6-22-96-E3,False,True,2021-04-01 18:44,2021-04-01 18:44,US-CA-SE
+487230,N/A,Other,Other,Unknown,"Google, ",10.200.200.103,Canada,D8-6C-63-4A-99-88,False,True,2021-04-01 18:44,2021-04-01 18:44,US-CA-SE
+487231,N/A,Other,Other,Unknown,"TCL Technoly Electronics(Huizhou)., ",10.200.200.104,Canada,88-D0-39-56-80-FB,False,True,2021-04-01 18:44,2021-04-01 18:44,US-CA-SE
+487240,N/A,Other,Other,Unknown,"Wyze Labs, ",10.200.200.117,Canada,2C-AA-8E-59-79-76,False,True,2021-04-01 18:44,2021-04-01 18:44,US-CA-SE
+487241,N/A,Other,Other,Unknown,"Wyze Labs, ",10.200.200.118,Canada,2C-AA-8E-90-25-96,False,True,2021-04-01 18:44,2021-04-01 18:44,US-CA-SE
+487242,N/A,Other,Other,Unknown,"Ieee Registration Authority, ",10.200.200.119,Canada,A4-DA-22-2C-2F-12,False,True,2021-04-01 18:44,2021-04-01 18:44,US-CA-SE
+487232,N/A,Mobile,Mobile,Phone,"Sony, Android 5.1",10.200.200.106,Canada,AC-9B-0A-25-1C-26,False,True,2021-04-01 18:44,2021-04-01 18:44,US-CA-SE
+487233,setup.myqdevice.com,Other,Other,Specialized,"The Chamberlain Group, CGI, OSRAM Lightify ZigBee gateway",10.200.200.107,Canada,64-52-99-F1-D6-C7,False,True,2021-04-01 18:44,2021-04-01 18:44,US-CA-SE
+487234,N/A,Other,Other,Unknown,"Nest Labs, ",10.200.200.108,Canada,18-B4-30-01-F1-75,False,True,2021-04-01 18:44,2021-04-01 18:44,US-CA-SE
+487235,N/A,Other,Other,Unknown,"Xiaomi Communications, ",10.200.200.111,Canada,00-9E-C8-95-14-F1,False,True,2021-04-01 18:44,2021-04-01 18:44,US-CA-SE
+487237,localhost,Mobile,Mobile,Phone,"Nvidia, Android 5.0 - 6.0.1 (Linux 3.4)",10.200.200.113,Canada,00-04-4B-74-6C-9A,False,True,2021-04-01 18:44,2021-04-01 18:44,US-CA-SE
+487238,N/A,Other,Other,Unknown,"Samsung Electronics, ",10.200.200.114,Canada,20-D3-90-E1-02-97,False,True,2021-04-01 18:44,2021-04-01 18:44,US-CA-SE
+487239,N/A,Other,Other,Unknown,,10.200.200.115,Canada,C6-BC-17-E8-65-FD,False,True,2021-04-01 18:44,2021-04-01 18:44,US-CA-SE
+487236,N/A,,,,,10.200.200.112,Canada,3E-24-F2-7B-14-5E,False,True,2021-04-01 18:40,2021-04-01 18:40,US-CA-SE
+487228,N/A,,,,,10.200.200.100,Canada,94-10-3E-4D-B9-D1,False,True,2021-04-01 18:40,2021-04-01 18:40,US-CA-SE
