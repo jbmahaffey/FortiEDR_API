@@ -79,7 +79,8 @@ def main():
                         "data": {
                             "name": "iot_%s" % dev['id'],
                             "type": "ipmask",
-                            "subnet": "%s/32" % dev['internalIp']
+                            "subnet": "%s/32" % dev['internalIp'],
+                            "comment": "%s" % dev['model']
                         },
                     "url": "pm/config/adom/%s/obj/firewall/address" % adom
                     }
