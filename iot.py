@@ -1,13 +1,14 @@
 #!/usr/bin/python3
 
 import requests, ssl, csv, json
+from getpass import getpass
 
 ssl._create_default_https_context = ssl._create_unverified_context
 requests.packages.urllib3.disable_warnings() 
 
 def main():
     username = input(str('Please enter EDR username: '))
-    password = input(str('Please enter your EDR password: '))
+    password = getpass('Please enter your EDR password: ')
 
     edr = 'https://demoedr2us.console.ensilo.com/management-rest/iot/list-iot-devices'
     
@@ -41,7 +42,7 @@ def main():
     if addmgr == 'Yes' or addmgr == 'yes' or addmgr == 'y':
         fmgr = input(str('IP address or hostname of FortiManager: '))
         fmgruser = input(str('Enter Fortimanager Username: '))
-        fmgrpass = input(str('Enter FortiManager Password: '))
+        fmgrpass = getpass('Enter FortiManager Password: ')
         addrgrp = input(str('Enter name of address group to add devices to: '))
         adom = input(str('Enter ADOM to add objects to: '))
 
